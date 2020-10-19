@@ -26,6 +26,29 @@ end
 blockCodes = [10 20 30 40 50 60];
 eventCodes = 1:9;
 
+% Metronome Trigger
+% 
+% 2: "Beep"
+% 
+% Block Triggers
+% 
+% 10: "do", short
+% 20: "do", medium
+% 30: "do", long
+% 40: "judge", short
+% 50: "judge", medium
+% 60: "judge", long
+% 
+% Trial Triggers
+% 1: Fixation
+% 2: Beep
+% 3: Response/Beep
+% 7: "Correct"
+% 8: "Early"
+% 9: "Late"
+% 
+% Add block trigger to trial trigger, e.g. a "do", short response is 10 + 3 = 13
+
 
 %% Define control keys
 KbName('UnifyKeyNames'); % Ensure that key names are mostly cross-platform
